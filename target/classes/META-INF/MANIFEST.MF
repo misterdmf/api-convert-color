@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: api-convert-color
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: davi
+Implementation-Vendor-Id: api-convert-color
+Build-Jdk: 1.8.0_131
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/api-convert-color
+Created-By: Maven Integration for Eclipse
+
