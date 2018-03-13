@@ -7,9 +7,34 @@ These instructions will get you a way to run and reproduce the sabe API on your 
 
 ### How to use
 
+After download and build the *api-convert-color* or reproduce this tutorial, you can run and test:
+
+running:
+```linux
+$java -jar yourProjectName.jar
 ```
-Give examples
+
+enjoying:
 ```
+http://localhost:8080/rgb?r=100&g=25&b=30
+```
+
+
+Converting RGB(100,25,30) to HEX and HSL
+```
+http://localhost:8080/rgb?r=100&g=25&b=30
+```
+
+Converting HEX #ffffff to RGB and HSL
+```
+http://localhost:8080/hex?hex=ffffff
+```
+
+Converting HSK(0,0,100) to RGB and HEX
+```
+http://localhost:8080/hsl?h=0&s=0&l=100
+```
+
 
 ## Do it yourself and have fun! DIY 
 
@@ -18,7 +43,7 @@ Give examples
 This is all you need. And 
 * A favorite text editor or IDE (In my case, to simplify Eclipse)
 * JDK 1.8 or later
-* Maven 3.0+
+* Maven 3.0+     [Maven](http://maven.apache.org/) - How to install and use.
 
 ### Create a Java project
 
@@ -379,10 +404,3 @@ Software Engineer with over 10 years experience designing and analyzing complex 
 seeking to improve the efficiency of algorithmic solutions. Taught courses in algorithm design and 
 analysis, data structure and object‐oriented programming to over 2500 students at a top 10 
 university in Brazil. 
-
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
